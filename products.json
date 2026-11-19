@@ -1,0 +1,85 @@
+{
+  "product1-perf-fem": [
+    "assets/img/perf-fem/sabah-al-ward-foto-1.jpg",
+    "assets/img/perf-fem/sabah-al-ward-foto-2.jpg",
+    "assets/img/perf-fem/sabah-al-ward-foto-3.jpg"
+  ],
+
+  "product2-perf-fem": [
+    "assets/img/perf-fem/royal-amber-foto-1.jpg",
+    "assets/img/perf-fem/royal-amber-foto-2.jpg",
+    "assets/img/perf-fem/royal-amber-foto-3.jpg"
+  ],
+
+  "product3-perf-fem": [
+    "assets/img/perf-fem/fakhar-rose-foto-1.jpg",
+    "assets/img/perf-fem/fakhar-rose-foto-2.jpg",
+    "assets/img/perf-fem/fakhar-rose-foto-3.jpg"
+  ],
+
+  "product4-perf-fem": [
+    "assets/img/perf-fem/delilah-foto-1.jpg",
+    "assets/img/perf-fem/delilah-foto-2.jpg",
+    "assets/img/perf-fem/delilah-foto-3.jpg"
+  ],
+
+  "product1-perf-masc": [
+    "assets/img/perf-masc/asad-lattafa-foto-1.jpg",
+    "assets/img/perf-masc/asad-lattafa-foto-2.jpg",
+    "assets/img/perf-masc/asad-lattafa-foto-3.jpg"
+  ],
+
+  "product2-perf-masc": [
+    "assets/img/perf-masc/club-nuit-foto-1.jpg",
+    "assets/img/perf-masc/club-nuit-foto-2.jpg",
+    "assets/img/perf-masc/club-nuit-foto-3.jpg"
+  ],
+
+  "product3-perf-masc": [
+    "assets/img/perf-masc/fakhar-black-foto-1.jpg",
+    "assets/img/perf-masc/fakhar-black-foto-2.jpg",
+    "assets/img/perf-masc/fakhar-black-foto-3.jpg"
+  ],
+
+  "product4-perf-masc": [
+    "assets/img/perf-masc/al-noble-lattafa-foto-1.jpg",
+    "assets/img/perf-masc/al-noble-lattafa-foto-2.jpg",
+    "assets/img/perf-masc/al-noble-lattafa-foto-3.jpg"
+  ],
+
+  "product1-ps4": [
+    "assets/img/ps4/metal-gear-v-foto-1.jpg",
+    "assets/img/ps4/metal-gear-v-foto-2.jpg",
+    "assets/img/ps4/metal-gear-v-foto-3.jpg",
+    "assets/img/ps4/metal-gear-v-foto-4.jpg"
+  ],
+
+  "product2-ps4": [
+    "assets/img/ps4/naruto-4-foto-1.jpg",
+    "assets/img/ps4/naruto-4-foto-2.jpg",
+    "assets/img/ps4/naruto-4-foto-3.jpg",
+    "assets/img/ps4/naruto-4-foto-4.jpg",
+    "assets/img/ps4/naruto-4-foto-5.jpg"
+  ],
+
+  "product3-ps4": [
+    "assets/img/ps4/dbz-xeno-2-foto-1.jpg",
+    "assets/img/ps4/dbz-xeno-2-foto-2.jpg",
+    "assets/img/ps4/dbz-xeno-2-foto-3.jpg",
+    "assets/img/ps4/dbz-xeno-2-foto-4.jpg"
+  ],
+
+  "product1-ps5": [
+    "assets/img/ps5/gow-rag-foto-1.jpg",
+    "assets/img/ps5/gow-rag-foto-2.jpg",
+    "assets/img/ps5/gow-rag-foto-3.jpg",
+    "assets/img/ps5/gow-rag-foto-4.jpg",
+    "assets/img/ps5/gow-rag-foto-5.jpg"
+  ],
+
+  "product2-ps5": [
+    "assets/img/ps5/horizon-foto-1.jpg",
+    "assets/img/ps5/horizon-foto-3.jpg",
+    "assets/img/ps5/horizon-foto-4.jpg"
+  ]
+}

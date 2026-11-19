@@ -1,0 +1,314 @@
+.intro {
+  opacity: 0;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+  transition: 0.7s;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.3;
+}
+
+.intro #box-logo {
+  margin-bottom: 60px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2.75rem;
+  margin-bottom: 60px;
+}
+
+.intro img {
+  margin-bottom: -30px;
+}
+
+.intro.ativo.right {
+  animation: showRight 0.7s forwards;
+}
+
+.box-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 80px 15px;
+  align-items: start;
+  justify-items: start;
+  gap: 30px;
+}
+
+.box-info p {
+  opacity: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  letter-spacing: 1.3;
+  margin: 0px;
+}
+
+.box-img-1,
+.box-img-2 {
+  opacity: 0;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.box-img-1 {
+  background-image: url("../../assets/img/perfumes-vitrine.jpg");
+}
+
+.box-img-2 {
+  background-image: url("../../assets/img/joias-vitrine.jpg");
+}
+
+.box-text-btns {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 60px;
+}
+
+.btns-links {
+  opacity: 0;
+  display: flex;
+  gap: 10px;
+  align-self: start;
+}
+
+.btns-links.ativo.up {
+  animation: showUp 0.7s forwards;
+}
+
+.btns-links a {
+  background: var(--gold);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 6px;
+  width: 140px;
+  pointer-events: none;
+}
+
+.btns-links.ativo a {
+  pointer-events: auto;
+}
+
+.box-img-2 {
+  justify-self: end;
+}
+
+.box-img-1.ativo.down {
+  animation: showDown 0.7s forwards;
+}
+
+.box-img-2.ativo.down {
+  animation: showDown 0.7s forwards;
+}
+
+.box-info p.ativo.up {
+  animation: showUp 0.7s forwards;
+}
+
+.faq {
+  opacity: 0;
+  padding: 40px 0px;
+}
+
+.faq.ativo.right {
+  animation: showRight 0.7s forwards;
+}
+
+details {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  overflow: hidden;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+}
+
+summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  cursor: pointer;
+  font-size: 1.5rem;
+  gap: 10px;
+}
+
+summary::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background: var(--gold);
+  transition: rotate 0.3s;
+}
+
+[open] summary::before {
+  rotate: 90deg;
+}
+
+.resp {
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+@supports (height: calc-size(auto, size)) {
+  details::details-content {
+    height: 0;
+    transition:
+      height 0.3s,
+      content-visibility 0.3s allow-discrete;
+  }
+
+  details[open]::details-content {
+    height: calc-size(auto, size);
+  }
+}
+
+@media (max-width: 1250px) {
+  .box-img-1,
+  .box-img-2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 960px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .logo-home {
+    width: 250px;
+    height: 250px;
+  }
+
+  .box-img-1,
+  .box-img-2 {
+    width: 100%;
+    height: 420px;
+  }
+
+  .box-info p {
+    font-size: 1.2rem;
+  }
+
+  .intro p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 712px) {
+  .box-info {
+    grid-template-columns: 1fr;
+  }
+
+  .box-img-1,
+  .box-img-2 {
+    grid-row: 1;
+    height: 370px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .box-text-btns {
+    gap: 30px;
+  }
+
+  .resp {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .logo-home {
+    width: 180px;
+    height: 180px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .box-info {
+    margin: 0px 15px;
+  }
+
+  .box-info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  summary {
+    font-size: 1.25rem;
+  }
+
+  .resp {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .intro {
+    margin-top: 100px;
+  }
+
+  .box-img-1,
+  .box-img-2 {
+    height: 250px;
+  }
+
+  .overlay .estados {
+    font-size: 1rem;
+  }
+
+  .btns-links a {
+    padding: 5px 10px;
+  }
+
+  .cib-loose {
+    font-size: 0.75rem;
+  }
+
+  .jogo-img img {
+    max-height: 180px;
+  }
+
+  .jogo {
+    width: 90%;
+    padding: 0px;
+  }
+
+  .botoes {
+    margin-top: 10px;
+  }
+
+  .cp {
+    margin-bottom: 10px;
+  }
+
+  .cp img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .details img {
+    width: 18px;
+    height: 18px;
+  }
+}

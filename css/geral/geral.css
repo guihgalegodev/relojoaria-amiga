@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #1d1d1d;
+  --secundary-color: #0f0f0f;
+  --product-color: rgba(15, 15, 15, 0.3);
+  --cinza: #dadada;
+  --branco: #e2e2e2;
+  --preto: #141414;
+  --gold: #cfb53b;
+  --bege: #fef1cf;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--secundary-color);
+  color: var(--bege);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+main p {
+  margin: 30px 10px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+  color: var(--bege);
+  text-align: center;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 30px auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
+
+@keyframes showRight {
+  from {
+    opacity: 0;
+    transform: translate(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes showDown {
+  from {
+    opacity: 0;
+    transform: translate(0px, -30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes showUp {
+  from {
+    opacity: 0;
+    transform: translate(0px, 30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    margin: 0px 10px;
+  }
+}
