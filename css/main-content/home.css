@@ -53,15 +53,7 @@
 }
 
 .box-img-1 {
-  background-image: url(../../assets/img/perfumes.jpg);
-}
-
-.box-img-2 {
-  background-image: url(../../assets/img/joias.jpg);
-}
-
-.box-img-1,
-.box-img-2 {
+  background-image: url("../../assets/img/perfumes.jpg");
   opacity: 0;
   width: 500px;
   height: 500px;
@@ -70,6 +62,28 @@
   background-size: cover;
   border-radius: 10px;
 }
+
+.box-img-2 {
+  background-image: url("../../assets/img/joias.jpg");
+  opacity: 0;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* .box-img-1,
+.box-img-2 {
+  opacity: 0;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+} */
 
 .box-text-btns {
   display: grid;
