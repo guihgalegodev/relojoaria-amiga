@@ -1,7 +1,6 @@
 import Modal from "./modal.js";
 import ScrollAnimado from "./scroll-animado.js";
 import ActiveOverlayCards from "./active-overlay-cards.js";
-import Banner from "./banner.js";
 import DropdownMenu from "./dropdown-menu.js";
 import { links } from "./links.js";
 import ScrollInfinito from "./scroll-infinito.js";
@@ -26,7 +25,6 @@ export default function initfetchPage() {
   }
 
   let currentScrollAnimado = null;
-  let currentBanner = null;
   let currentScrollInfinito = null;
 
   async function fetchPage(url) {
@@ -77,13 +75,6 @@ export default function initfetchPage() {
         }
       });
     }
-
-    if (currentBanner) {
-      currentBanner.stopAutoSlide();
-    }
-
-    currentBanner = new Banner(".banner", ".controls li", url);
-    currentBanner.init();
 
     if (url.endsWith("index.html")) {
       currentScrollInfinito = new ScrollInfinito(

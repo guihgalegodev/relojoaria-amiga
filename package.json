@@ -1,5 +1,5 @@
 {
-  "name": "catalogo-relojoaria",
+  "name": "relojoaria-amiga",
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guihgalegodev/catalogo-relojoaria.git"
+    "url": "git+https://github.com/guihgalegodev/relojoaria-amiga.git"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guihgalegodev/catalogo-relojoaria/issues"
+    "url": "https://github.com/guihgalegodev/relojoaria-amiga/issues"
   },
-  "homepage": "https://github.com/guihgalegodev/catalogo-relojoaria#readme",
+  "homepage": "https://github.com/guihgalegodev/relojoaria-amiga#readme",
   "devDependencies": {
     "@babel/core": "^8.0.5",
     "@babel/plugin-transform-runtime": "^8.0.1",
