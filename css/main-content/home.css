@@ -53,37 +53,15 @@
 }
 
 .box-img-1 {
-  /* background-image: url("../../assets/img/perfumes.jpg"); */
   opacity: 0;
   width: 500px;
-  /* height: 500px; */
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px; */
 }
 
 .box-img-2 {
-  /* background-image: url("../../assets/img/joias.jpg"); */
   opacity: 0;
   width: 500px;
   height: 100%;
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px; */
 }
-
-/* .box-img-1,
-.box-img-2 {
-  opacity: 0;
-  width: 500px;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-} */
 
 .box-text-btns {
   display: grid;
@@ -107,8 +85,9 @@
   padding: 10px 20px;
   text-align: center;
   border-radius: 6px;
-  width: 140px;
+  width: 160px;
   pointer-events: none;
+  box-shadow: 0px 0px 7px var(--gold);
 }
 
 .btns-links.ativo a {
@@ -270,7 +249,7 @@ summary::before {
   }
 
   .box-info {
-    margin: 0px 15px;
+    margin: 40px 15px;
     gap: 0px;
   }
 
@@ -302,8 +281,9 @@ summary::before {
     font-size: 1rem;
   }
 
-  .btns-links a {
-    padding: 5px 10px;
+  .btns-links {
+    flex-direction: column;
+    gap: 30px;
   }
 
   .botoes {
